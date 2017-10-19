@@ -6,4 +6,4 @@ pipeline:
   build:
     image: circleci/openjdk:8-jdk-browsers
     commands:
-      - mvn clean package -DskipTests
+      - mvn clean package -DskipTests -Dcheckstyle.skip=true
