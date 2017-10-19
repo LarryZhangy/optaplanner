@@ -1,3 +1,7 @@
+workspace:
+  base: /code
+  path: src/github.com/LarryZhangy/optaplanner
+
 pipeline:
   build:
     image: circleci/openjdk:8-jdk-browsers
