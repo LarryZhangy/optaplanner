@@ -1,0 +1,4 @@
+build:
+  image: circleci/openjdk:8-jdk-browsers
+  commands:
+    - mvn clean package -DskipTests

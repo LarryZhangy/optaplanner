@@ -4,6 +4,7 @@
 # Eclipse, Netbeans and IntelliJ files
 /.*
 !.gitignore
+!.drone.yml
 !.gitattributes
 /nbproject
 /*.ipr
